@@ -1,7 +1,6 @@
 import type { Conversation } from "@/types/conversation";
 import Link from "next/link";
 import { ContactInfo } from "./ContactInfo";
-import { DemoPill } from "./Header";
 import { ChevronLeftIcon } from "./icons";
 
 export function ContactScreen({
@@ -22,7 +21,6 @@ export function ContactScreen({
             <ChevronLeftIcon />
           </Link>
           <h1>Contact details</h1>
-          <DemoPill />
         </header>
         <div className="contact-scroll">
           <ContactInfo

@@ -66,6 +66,15 @@ export function PhoneIcon(props: IconProps) {
   );
 }
 
+export function ContactCardIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <rect x="3.5" y="6" width="17" height="15" rx="2" stroke="currentColor" strokeWidth="1.8" />
+      <path d="M8 3.5h8M8 11.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0ZM6.5 18c.5-2 1.7-3 3.5-3s3 .9 3.5 3M16 11h2.5M16 14.5h2.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function PlusIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
