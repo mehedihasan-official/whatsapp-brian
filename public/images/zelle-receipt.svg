@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380">
+  <rect x="3" y="3" width="614" height="374" rx="26" fill="#fff" stroke="#d8d8d8" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="m48 46 20-16 19 34H67zM52 70h40L72 91H42z" fill="#e8a332"/>
+    <text x="100" y="67" fill="#173d77" font-size="34" font-weight="700">SouthState</text>
+    <text x="440" y="68" fill="#6b28b8" font-size="43" font-weight="700">zelle</text>
+    <text x="32" y="129" fill="#171717" font-size="27">Querida Maritza,</text>
+    <text x="32" y="168" fill="#171717" font-size="27">Hemos recibido con éxito un pago de</text>
+    <text x="32" y="207" fill="#171717" font-size="27">$400.00 de HB SHARE LLC (número de</text>
+    <text x="32" y="246" fill="#171717" font-size="27">confirmación 5582841253) para depositar</text>
+    <text x="32" y="285" fill="#171717" font-size="27">en su cuenta (SouthState, XXXXXXX8563).</text>
+    <text x="32" y="324" fill="#171717" font-size="27">Para ver los detalles de la transacción,</text>
+    <text x="32" y="359" fill="#171717" font-size="25">por favor contacte a su banco.</text>
+  </g>
+</svg>

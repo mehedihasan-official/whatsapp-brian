@@ -1,224 +1,110 @@
 {
   "contact": {
-    "name": "Maritza cliente HIVC",
-    "username": "@mehedisumu",
+    "name": "Maritza cliente",
     "phone": "+1 (202) 555-0148",
-    "about": "Coffee before the first meeting, always.",
+    "about": "Bendecido d\u00eda.",
     "avatar": "/images/Maritza-cliente-HIVC.jpg",
     "statusText": "online"
   },
   "messages": [
-    { "id": "yesterday", "type": "date", "text": "Yesterday" },
     {
-      "id": "m01",
+      "id": "blessing-image",
       "from": "them",
-      "type": "text",
-      "text": "Hey, did you make it home okay?",
-      "time": "6:18 PM",
-      "status": "read"
+      "type": "image",
+      "text": "Bendiciones y un fuerte abrazo",
+      "time": "9:34 AM",
+      "status": "read",
+      "src": "/images/conversation-emoji.png",
+      "layout": "sticker"
     },
     {
-      "id": "m02",
-      "from": "me",
-      "type": "text",
-      "text": "Yep, just got in. Thanks for checking!",
-      "time": "6:21 PM",
-      "status": "read"
+      "id": "jul-5",
+      "type": "date",
+      "text": "Sun, Jul 5, 2026"
     },
     {
-      "id": "m03",
+      "id": "zelle-receipt",
       "from": "them",
-      "type": "text",
-      "text": "That little bookshop was such a good find.",
-      "time": "6:24 PM",
-      "status": "read"
+      "type": "image",
+      "text": "SouthState / Zelle\nQuerida Maritza,\nHemos recibido con \u00e9xito un pago de $400.00 de HB SHARE LLC (n\u00famero de confirmaci\u00f3n 5582841253) para depositar en su cuenta (SouthState, XXXXXXX8563). Para ver los detalles de la transacci\u00f3n, por favor contacte a su banco.",
+      "time": "9:33 AM",
+      "status": "read",
+      "src": "/images/zelle-receipt.svg",
+      "layout": "receipt"
     },
     {
       "id": "m04",
       "from": "me",
       "type": "text",
-      "text": "I could have stayed there all afternoon.",
-      "time": "6:26 PM",
+      "text": "Perd\u00f3n de Que son esos 400.00",
+      "time": "9:32 AM",
       "status": "read"
     },
     {
       "id": "m05",
       "from": "them",
       "type": "text",
-      "text": "They said the back room gets new shelves next week. We should go back and have a proper look.",
-      "time": "6:31 PM",
+      "text": "Perd\u00f3n, eso fue para la muchacha de los stocks que hab\u00edamos comprado. Despu\u00e9s de hablar con ella, Rafa me hab\u00eda dicho que se lo mandara a ella.",
+      "time": "9:33 AM",
       "status": "read"
     },
     {
       "id": "m06",
-      "from": "me",
-      "type": "text",
-      "text": "Absolutely. I still have a list of titles I forgot to check.",
-      "time": "6:34 PM",
-      "status": "read"
-    },
-    {
-      "id": "m07",
-      "from": "them",
-      "type": "voice",
-      "text": "Voice note",
-      "time": "6:40 PM",
-      "status": "read",
-      "duration": "0:12"
-    },
-    {
-      "id": "m08",
-      "from": "me",
-      "type": "text",
-      "text": "That sounds perfect, Saturday works for me.",
-      "time": "6:43 PM",
-      "status": "read"
-    },
-    {
-      "id": "m09",
       "from": "them",
       "type": "text",
-      "text": "Great. I'll check the opening hours and send them over.",
-      "time": "6:45 PM",
+      "text": "Bendiciones\ny\nUn fuerte\nAbrazo",
+      "time": "9:34 AM",
       "status": "read"
     },
     {
-      "id": "m10",
-      "from": "me",
-      "type": "text",
-      "text": "Thanks! Hope the rest of your evening is a quiet one.",
-      "time": "6:48 PM",
-      "status": "read"
+      "id": "jul-16",
+      "type": "date",
+      "text": "Thu, Jul 16"
     },
     {
-      "id": "m11",
+      "id": "m01",
       "from": "them",
       "type": "text",
-      "text": "You too, talk tomorrow 🙂",
-      "time": "6:50 PM",
+      "text": "Buenos d\u00edas Bryan! Disculpa las molestias, pero a\u00fan no recibimos la llamada de la muchacha. Podr\u00edas decirle que si nos puede al menos escribir. Bendecido d\u00eda!",
+      "time": "9:14 AM",
       "status": "read"
     },
-    { "id": "today", "type": "date", "text": "Today" },
     {
-      "id": "m12",
+      "id": "m02",
+      "from": "me",
+      "type": "text",
+      "text": "Perd\u00f3n, pero eso no fue conmigo.\nEse asunto fue entre usted y Alondra.\nYo solamente le ayud\u00e9 con el n\u00famero de tel\u00e9fono para lo de los stocks que usted me hab\u00eda preguntado. Cualquier otro asunto relacionado con HB Share LLC tendr\u00eda que hablarlo directamente con Alondra.",
+      "time": "5:05 PM",
+      "status": "read"
+    },
+    {
+      "id": "m03",
       "from": "them",
       "type": "text",
-      "text": "Morning!",
-      "time": "7:14 AM",
+      "text": "Perd\u00f3n, cre\u00eda que se lo hab\u00eda mandado a ella. Ya recibimos los refund del stock purchase de $400.00, no nos result\u00f3 lo stock purchase.",
+      "time": "5:08 PM",
       "status": "read"
     },
     {
-      "id": "m13",
-      "from": "me",
-      "type": "text",
-      "text": "Good morning. Did you sleep any better?",
-      "time": "7:22 AM",
-      "status": "read"
+      "id": "jul-28",
+      "type": "date",
+      "text": "Tue, Jul 28, 2026"
     },
     {
-      "id": "m14",
+      "id": "m28-1",
       "from": "them",
       "type": "text",
-      "text": "Much better, thank you. The rain finally stopped here.",
-      "time": "7:25 AM",
+      "text": "Lo entiendo Brian hemos tratado de hacer la refinanciaci\u00f3n y no ha resultado por nuestro cr\u00e9dito sabe c\u00f3mo podemos cancelar el upgrade",
+      "time": "10:21 AM",
       "status": "read"
     },
     {
-      "id": "m15",
+      "id": "m28-2",
       "from": "me",
       "type": "text",
-      "text": "Nice! The light looks really good outside.",
-      "time": "7:31 AM",
+      "text": "Oh no c\u00f3mo le dije peor caso scenario tiene la cuenta con nosotros ya financiado a Ning\u00fan Prepago penalidad y para cancelaci\u00f3n a por su contracto puede ver los t\u00e9rminos y condiciones. Oh puede hablar con customer service yo no puedo hacer nada m\u00e1s aya. Mil disculpas.",
+      "time": "10:34 AM",
       "status": "read"
-    },
-    {
-      "id": "m16",
-      "from": "them",
-      "type": "image",
-      "text": "Took the long way along the river this morning.",
-      "time": "7:38 AM",
-      "status": "read",
-      "src": "/river-morning.svg"
-    },
-    {
-      "id": "m17",
-      "from": "me",
-      "type": "text",
-      "text": "That looks so peaceful. I should do that before work sometime.",
-      "time": "7:42 AM",
-      "status": "read"
-    },
-    {
-      "id": "m18",
-      "from": "them",
-      "type": "text",
-      "text": "It's a nice reset. There's a little path just past the footbridge.",
-      "time": "7:46 AM",
-      "status": "read"
-    },
-    {
-      "id": "m19",
-      "from": "me",
-      "type": "text",
-      "text": "I'll try it tomorrow if I'm up early enough 😅",
-      "time": "7:51 AM",
-      "status": "read"
-    },
-    {
-      "id": "m20",
-      "from": "them",
-      "type": "text",
-      "text": "Want to meet for coffee after? I found a place near the station with a sunny patio and excellent cinnamon rolls.",
-      "time": "8:02 AM",
-      "status": "read"
-    },
-    {
-      "id": "m21",
-      "from": "me",
-      "type": "text",
-      "text": "You had me at cinnamon rolls. What time were you thinking?",
-      "time": "8:07 AM",
-      "status": "read"
-    },
-    {
-      "id": "m22",
-      "from": "them",
-      "type": "text",
-      "text": "Around nine? No rush if your morning gets busy.",
-      "time": "8:10 AM",
-      "status": "read"
-    },
-    {
-      "id": "m23",
-      "from": "me",
-      "type": "text",
-      "text": "Nine works. See you there!",
-      "time": "8:14 AM",
-      "status": "read"
-    },
-    {
-      "id": "m24",
-      "from": "them",
-      "type": "text",
-      "text": "Perfect, see you soon ☀️",
-      "time": "8:16 AM",
-      "status": "read"
-    },
-    {
-      "id": "m25",
-      "from": "me",
-      "type": "text",
-      "text": "Heading out now, see you in a few!",
-      "time": "8:19 AM",
-      "status": "delivered"
-    },
-    {
-      "id": "m26",
-      "from": "me",
-      "type": "text",
-      "text": "I'll grab a table by the window.",
-      "time": "8:20 AM",
-      "status": "sent"
     }
   ]
 }

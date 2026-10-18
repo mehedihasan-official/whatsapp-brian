@@ -16,6 +16,8 @@ export type ConversationMessage = {
   status: MessageStatus;
   duration?: string;
   src?: string;
+  caption?: string;
+  layout?: "receipt" | "sticker";
 };
 
 export type ConversationItem = DateItem | ConversationMessage;
@@ -23,7 +25,6 @@ export type ConversationItem = DateItem | ConversationMessage;
 export type Conversation = {
   contact: {
     name: string;
-    username: string;
     phone: string;
     about: string;
     avatar: string;

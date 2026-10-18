@@ -8,8 +8,15 @@ export function ImageMessage({
   message: ConversationMessage;
   bubbleClass: string;
 }) {
+  const layoutClass =
+    message.layout === "receipt"
+      ? "receipt-bubble"
+      : message.layout === "sticker"
+        ? "sticker-bubble"
+        : "";
+
   return (
-    <div className={`${bubbleClass} image-bubble`}>
+    <div className={`${bubbleClass} image-bubble ${layoutClass}`}>
       <div
         className="message-image"
         role="img"
@@ -18,7 +25,7 @@ export function ImageMessage({
       >
         <MessageMeta message={message} />
       </div>
-      <p className="image-caption">{message.text}</p>
+      {message.caption && <p className="image-caption">{message.caption}</p>}
     </div>
   );
 }

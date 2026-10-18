@@ -66,15 +66,6 @@ export function PhoneIcon(props: IconProps) {
   );
 }
 
-export function ContactCardIcon(props: IconProps) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
-      <rect x="3.5" y="6" width="17" height="15" rx="2" stroke="currentColor" strokeWidth="1.8" />
-      <path d="M8 3.5h8M8 11.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0ZM6.5 18c.5-2 1.7-3 3.5-3s3 .9 3.5 3M16 11h2.5M16 14.5h2.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-    </svg>
-  );
-}
-
 export function PlusIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
@@ -201,6 +192,102 @@ export function SearchIcon(props: IconProps) {
         strokeWidth="1.8"
         strokeLinecap="round"
       />
+    </svg>
+  );
+}
+
+export function MoreVertIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <circle cx="12" cy="5" r="1.8" />
+      <circle cx="12" cy="12" r="1.8" />
+      <circle cx="12" cy="19" r="1.8" />
+    </svg>
+  );
+}
+
+export function ChatsTabIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M4 5h16v12H9l-5 3V5Z" fill="currentColor" />
+      <path d="M8 9h8M8 13h6" stroke="white" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function CallsTabIcon(props: IconProps) {
+  return <PhoneIcon {...props} />;
+}
+
+export function UpdatesTabIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="12" cy="12" r="5.2" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="12" cy="12" r="1.4" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function ToolsTabIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M4 8h16v11H4zM3 5h18v2H3zM8 12h8M8 15h5" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function NewChatIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M4 5h16v12H9l-5 3V5Z" fill="currentColor" />
+      <path d="M12 8v6M9 11h6" stroke="#111" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function MessageActionIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H5l1.2-3A7.5 7.5 0 1 1 20 11.5Z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function InfoCircleIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.8" />
+      <path d="M12 11v5M12 8h.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IncomingCallIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M7.2 3.5h2.4l1.2 4.1-2 1.7a15 15 0 0 0 5.9 5.9l1.7-2 4.1 1.2v2.4a2 2 0 0 1-2.2 2c-7.1-.7-12.7-6.3-13.4-13.4a2 2 0 0 1 2-2.2Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M18.5 3.5h-4m4 0v4m0-4-5.2 5.2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function CallHistoryIcon({
+  kind,
+  ...props
+}: IconProps & { kind: "incoming" | "missed" | "unanswered" }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
+      <path d="M6.5 3.5h2.3l1.4 4.1-2 1.7a15 15 0 0 0 6 6l1.7-2 4.1 1.4v2.3a2 2 0 0 1-2.2 2C10.7 18.2 5.8 13.3 5 6.2a2 2 0 0 1 1.5-2.7Z" fill="currentColor" />
+      {kind !== "missed" && (
+        <path
+          d={kind === "incoming" ? "M19 4h-4m4 0v4m0-4-5 5" : "M14 4h5v5m0-5-6 6"}
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      )}
     </svg>
   );
 }
