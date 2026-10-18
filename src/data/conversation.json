@@ -8,16 +8,6 @@
   },
   "messages": [
     {
-      "id": "blessing-image",
-      "from": "them",
-      "type": "image",
-      "text": "Bendiciones y un fuerte abrazo",
-      "time": "9:34 AM",
-      "status": "read",
-      "src": "/images/conversation-emoji.png",
-      "layout": "sticker"
-    },
-    {
       "id": "jul-5",
       "type": "date",
       "text": "Sun, Jul 5, 2026"
@@ -30,14 +20,25 @@
       "time": "9:33 AM",
       "status": "read",
       "src": "/images/zelle-receipt.svg",
-      "layout": "receipt"
+      "layout": "receipt",
+      "caption": "Buenos D\u00edas! Gracias!!"
+    },
+    {
+      "id": "blessing-image",
+      "from": "them",
+      "type": "image",
+      "text": "Bendiciones y un fuerte abrazo",
+      "time": "9:34 AM",
+      "status": "read",
+      "src": "/images/conversation-emoji.png",
+      "layout": "sticker"
     },
     {
       "id": "m04",
       "from": "me",
       "type": "text",
       "text": "Perd\u00f3n de Que son esos 400.00",
-      "time": "9:32 AM",
+      "time": "9:35 AM",
       "status": "read"
     },
     {
@@ -45,7 +46,7 @@
       "from": "them",
       "type": "text",
       "text": "Perd\u00f3n, eso fue para la muchacha de los stocks que hab\u00edamos comprado. Despu\u00e9s de hablar con ella, Rafa me hab\u00eda dicho que se lo mandara a ella.",
-      "time": "9:33 AM",
+      "time": "9:36 AM",
       "status": "read"
     },
     {
@@ -53,7 +54,7 @@
       "from": "them",
       "type": "text",
       "text": "Bendiciones\ny\nUn fuerte\nAbrazo",
-      "time": "9:34 AM",
+      "time": "9:37 AM",
       "status": "read"
     },
     {
