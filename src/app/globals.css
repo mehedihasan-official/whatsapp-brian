@@ -466,6 +466,8 @@ input:focus-visible {
 }
 
 .sticker-bubble {
+  width: clamp(76px, 24vw, 104px);
+  max-width: 78%;
   padding: 0;
   background: transparent;
   box-shadow: none;
